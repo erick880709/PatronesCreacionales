@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_M_0vUORBEeuh0NLm_Ji1gA" name="Singlenton">
+    <eAnnotations xmi:id="_NKFekORBEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_NKFekeRBEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_NKFekuRBEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesCreacionales/src"/>
+        <details xmi:id="_NXdzQORBEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesCreacionales/src/singleton/BalanceadorCargas.java;1076127843/1;/PatronesCreacionales/src/singleton/Main.java;1274113150/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_NUSjcORBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_NUSjceRBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_NUSjcuRBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTKgORBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTKgeRBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTKguRBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTKg-RBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTKhORBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_NUTxkORBEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NUU_sORBEeuh0NLm_Ji1gA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NUU_seRBEeuh0NLm_Ji1gA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NUxroORBEeuh0NLm_Ji1gA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NUzg0ORBEeuh0NLm_Ji1gA" name="Random"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NUXb8ORBEeuh0NLm_Ji1gA" name="singleton">
+      <packagedElement xmi:type="uml:Class" xmi:id="_NUbtYORBEeuh0NLm_Ji1gA" name="BalanceadorCargas">
+        <ownedComment xmi:id="_NVBjQ-RBEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_NU6OgORBEeuh0NLm_Ji1gA" name="instancia" visibility="private" isStatic="true" type="_NUbtYORBEeuh0NLm_Ji1gA" association="_NVDYcORBEeuh0NLm_Ji1gA"/>
+        <ownedAttribute xmi:id="_NU8DsORBEeuh0NLm_Ji1gA" name="servidores" visibility="private" isLeaf="true" type="_NUxroORBEeuh0NLm_Ji1gA" isReadOnly="true" association="_NVFNoORBEeuh0NLm_Ji1gA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_NU9R0eRBEeuh0NLm_Ji1gA" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_NU944eRBEeuh0NLm_Ji1gA" name="rnd" visibility="private" isLeaf="true" type="_NUzg0ORBEeuh0NLm_Ji1gA" isReadOnly="true" association="_NVGbweRBEeuh0NLm_Ji1gA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_NU-f8ORBEeuh0NLm_Ji1gA" value="new Random()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NU_uEORBEeuh0NLm_Ji1gA" name="BalanceadorCargas" specification="_NUdikORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NU_uEeRBEeuh0NLm_Ji1gA" type="_NUbtYORBEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>servidores.add(&quot;Servidor I&quot;);&#xD;
+     servidores.add(&quot;Servidor II&quot;);&#xD;
+     servidores.add(&quot;Servidor III&quot;);&#xD;
+     servidores.add(&quot;Servidor IV&quot;);&#xD;
+     servidores.add(&quot;Servidor V&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NVAVIORBEeuh0NLm_Ji1gA" name="getBalanceadorCargas" specification="_NUewsORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NVAVIeRBEeuh0NLm_Ji1gA" type="_NUbtYORBEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>if(instancia == null){&#xD;
+         instancia = new BalanceadorCargas();&#xD;
+     }&#xD;
+     return instancia;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NVA8MORBEeuh0NLm_Ji1gA" name="getServidor" specification="_NUfXwORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NVA8MeRBEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int r = rnd.nextInt(servidores.size());&#xD;
+     return servidores.get(r);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_NUdikORBEeuh0NLm_Ji1gA" name="BalanceadorCargas" visibility="private" method="_NU_uEORBEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_NUeJoORBEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_NUeJoeRBEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_NUeJouRBEeuh0NLm_Ji1gA" type="_NUbtYORBEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NUewsORBEeuh0NLm_Ji1gA" name="getBalanceadorCargas" isStatic="true" method="_NVAVIORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NU19EORBEeuh0NLm_Ji1gA" type="_NUbtYORBEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_NUfXwORBEeuh0NLm_Ji1gA" name="getServidor" method="_NVA8MORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NUf-0ORBEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NUjCIORBEeuh0NLm_Ji1gA" name="Main">
+        <ownedComment xmi:id="_NVCKUORBEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NVBjQORBEeuh0NLm_Ji1gA" name="main" specification="_NUjpMORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NVBjQeRBEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NVBjQuRBEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>BalanceadorCargas b1 = BalanceadorCargas.getBalanceadorCargas();&#xD;
+     BalanceadorCargas b2 = BalanceadorCargas.getBalanceadorCargas();&#xD;
+     BalanceadorCargas b3 = BalanceadorCargas.getBalanceadorCargas();&#xD;
+     BalanceadorCargas b4 = BalanceadorCargas.getBalanceadorCargas();&#xD;
+     &#xD;
+     &#xD;
+     &#xD;
+     if(b1==b2 &amp;&amp; b2==b3 &amp;&amp; b3==b4){&#xD;
+         System.out.println(&quot;Son la misma instancia&quot;);&#xD;
+     }&#xD;
+     else{&#xD;
+         System.out.println(&quot;No son la misma instancia&quot;);&#xD;
+     }&#xD;
+     &#xD;
+     BalanceadorCargas balanceador = BalanceadorCargas.getBalanceadorCargas();&#xD;
+     for (int i = 0; i &lt; 15; i++) {&#xD;
+         String servidor = balanceador.getServidor();&#xD;
+         System.out.println(&quot;Atendiendo solicitud para el servidor :&quot;+servidor);            &#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_NUjpMORBEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_NVBjQORBEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_NUjpMeRBEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NUkQQORBEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NVDYcORBEeuh0NLm_Ji1gA" name="" memberEnd="_NVDYceRBEeuh0NLm_Ji1gA _NU6OgORBEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_NVDYceRBEeuh0NLm_Ji1gA" name="" type="_NUbtYORBEeuh0NLm_Ji1gA" association="_NVDYcORBEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NVFNoORBEeuh0NLm_Ji1gA" name="" memberEnd="_NVFNoeRBEeuh0NLm_Ji1gA _NU8DsORBEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_NVFNoeRBEeuh0NLm_Ji1gA" name="" type="_NUbtYORBEeuh0NLm_Ji1gA" association="_NVFNoORBEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NVGbweRBEeuh0NLm_Ji1gA" name="" memberEnd="_NVGbwuRBEeuh0NLm_Ji1gA _NU944eRBEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_NVGbwuRBEeuh0NLm_Ji1gA" name="" type="_NUbtYORBEeuh0NLm_Ji1gA" association="_NVGbweRBEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_NKGFoORBEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_NKGssORBEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_NKGsseRBEeuh0NLm_Ji1gA" base_Package="_M_0vUORBEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_NUy5wORBEeuh0NLm_Ji1gA" base_Element="_NUxroORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_NU1WAORBEeuh0NLm_Ji1gA" base_Element="_NUzg0ORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NU7coORBEeuh0NLm_Ji1gA" base_Element="_NU6OgORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Generics xmi:id="_NU9R0ORBEeuh0NLm_Ji1gA" genericsValue="String" base_Element="_NU8DsORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NU944ORBEeuh0NLm_Ji1gA" base_Element="_NU8DsORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NU_HAORBEeuh0NLm_Ji1gA" base_Element="_NU944eRBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_NVEmkORBEeuh0NLm_Ji1gA" base_Element="_NVDYcORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_NVGbwORBEeuh0NLm_Ji1gA" base_Element="_NVFNoORBEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_NVHp4ORBEeuh0NLm_Ji1gA" base_Element="_NVGbweRBEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

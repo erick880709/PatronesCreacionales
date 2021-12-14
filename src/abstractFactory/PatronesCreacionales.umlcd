@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_rxF5kORAEeuh0NLm_Ji1gA">
+  <modelElement href="PatronesCreacionales.uml#_sKiUUORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vWghEORAEeuh0NLm_Ji1gA" targetItem="_vWkygORAEeuh0NLm_Ji1gA" sourceItem="_vWZMUORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vXQvAORAEeuh0NLm_Ji1gA" targetItem="_vXSkMORAEeuh0NLm_Ji1gA" sourceItem="_vW_pQORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vXweQORAEeuh0NLm_Ji1gA" targetItem="_vXy6gORAEeuh0NLm_Ji1gA" sourceItem="_vXjp8ORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vYdB0ORAEeuh0NLm_Ji1gA" targetItem="_vYp2IORAEeuh0NLm_Ji1gA" sourceItem="_vYKG4ORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vYe3AORAEeuh0NLm_Ji1gA" sourceAnchor="107.0,0.0" targetAnchor="105.0,73.0" superClass="_vYp2IORAEeuh0NLm_Ji1gA" subClass="_vWkygORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOGlseRAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_2f4-kORAEeuh0NLm_Ji1gA" position="148.0,537.0"/>
+    <bendpoints xmi:id="_4BKkEuRAEeuh0NLm_Ji1gA" sourceY="-28" targetX="-26" targetY="29"/>
+    <bendpoints xmi:id="_4BLLIORAEeuh0NLm_Ji1gA" sourceX="26" sourceY="-28" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vYgFIORAEeuh0NLm_Ji1gA" sourceAnchor="107.0,0.0" targetAnchor="105.0,73.0" superClass="_vYp2IORAEeuh0NLm_Ji1gA" subClass="_vXSkMORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOHz0ORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_2f5loORAEeuh0NLm_Ji1gA" position="148.0,537.0"/>
+    <bendpoints xmi:id="_4BLLIeRAEeuh0NLm_Ji1gA" sourceY="-15" targetX="221" targetY="29"/>
+    <bendpoints xmi:id="_4BLLIuRAEeuh0NLm_Ji1gA" sourceX="-221" sourceY="-15" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vZu0MORAEeuh0NLm_Ji1gA" targetItem="_vZxQcORAEeuh0NLm_Ji1gA" sourceItem="_vZTWYORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vaGAkORAEeuh0NLm_Ji1gA" sourceAnchor="78.0,0.0" targetAnchor="41.0,27.0" superClass="_vZxQcORAEeuh0NLm_Ji1gA" subClass="_vaoMEORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOJB8uRAEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_4BIH0ORAEeuh0NLm_Ji1gA" sourceY="-38" targetX="143" targetY="65"/>
+    <bendpoints xmi:id="_4BIH0eRAEeuh0NLm_Ji1gA" sourceX="-143" sourceY="-38" targetY="65"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vaebEeRAEeuh0NLm_Ji1gA" targetItem="_vaoMEORAEeuh0NLm_Ji1gA" sourceItem="_vaebEORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vbXy8ORAEeuh0NLm_Ji1gA" sourceAnchor="95.0,0.0" targetAnchor="56.0,54.0" superClass="_vXy6gORAEeuh0NLm_Ji1gA" subClass="_vb2UEORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOMsUeRAEeuh0NLm_Ji1gA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vbypsORAEeuh0NLm_Ji1gA" targetItem="_vb2UEORAEeuh0NLm_Ji1gA" sourceItem="_vbyCoORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vci3oORAEeuh0NLm_Ji1gA" sourceAnchor="114.0,0.0" targetAnchor="56.0,54.0" superClass="_vXy6gORAEeuh0NLm_Ji1gA" subClass="_vdPbMORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOPIkuRAEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_4BLyMORAEeuh0NLm_Ji1gA" sourceY="-30" targetX="240" targetY="244"/>
+    <bendpoints xmi:id="_4BLyMeRAEeuh0NLm_Ji1gA" sourceX="-240" sourceY="-30" targetY="244"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vdLw0ORAEeuh0NLm_Ji1gA" targetItem="_vdPbMORAEeuh0NLm_Ji1gA" sourceItem="_vdEcEORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vePgwORAEeuh0NLm_Ji1gA" targetItem="_vfAVwORAEeuh0NLm_Ji1gA" sourceItem="_vd0C8ORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vfKt0ORAEeuh0NLm_Ji1gA" sourceAnchor="169.0,0.0" targetAnchor="54.0,27.0" target="_vZxQcORAEeuh0NLm_Ji1gA" source="_vgjN4ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOuQwORAEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_4BJV8ORAEeuh0NLm_Ji1gA" sourceY="-15" targetX="416" targetY="26"/>
+    <bendpoints xmi:id="_4BJV8eRAEeuh0NLm_Ji1gA" sourceX="-416" sourceY="-15" targetY="26"/>
+    <stereotypes xmi:id="_vgSIIORAEeuh0NLm_Ji1gA" name="Reference">
+      <modelElement href="PatronesCreacionales.uml#_sOwF8ORAEeuh0NLm_Ji1gA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_vgOdwORAEeuh0NLm_Ji1gA" text="">
+      <visualProperties xmi:id="_v4TmkORAEeuh0NLm_Ji1gA" position="-58.0,-9.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vgPE0ORAEeuh0NLm_Ji1gA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesCreacionales.uml#_sOuQweRAEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_v4RKUORAEeuh0NLm_Ji1gA" position="-189.0,-12.0"/>
+      <visibility xmi:id="_vgXnseRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vgXnsORAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vgPE0eRAEeuh0NLm_Ji1gA" aggregationKind="NONE" name="herbivoro" navigable="true">
+      <modelElement href="PatronesCreacionales.uml#_sOSy8ORAEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_v4UNoORAEeuh0NLm_Ji1gA" position="33.0,-23.000000000000085"/>
+      <visibility xmi:id="_vgYOweRAEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_vgYOwORAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vfeP0ORAEeuh0NLm_Ji1gA" sourceAnchor="182.0,0.0" targetAnchor="99.0,54.0" target="_vXy6gORAEeuh0NLm_Ji1gA" source="_vgjN4ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOwtAORAEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_4BJ9AORAEeuh0NLm_Ji1gA" sourceY="-93" targetX="559" targetY="25"/>
+    <bendpoints xmi:id="_4BJ9AeRAEeuh0NLm_Ji1gA" sourceX="-559" sourceY="-93" targetY="25"/>
+    <stereotypes xmi:id="_vgTWQORAEeuh0NLm_Ji1gA" name="Reference">
+      <modelElement href="PatronesCreacionales.uml#_sOyiMORAEeuh0NLm_Ji1gA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_vgSIIeRAEeuh0NLm_Ji1gA" text="">
+      <visualProperties xmi:id="_v4WC0eRAEeuh0NLm_Ji1gA" position="-90.00000000000006,-8.999999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vgSvMORAEeuh0NLm_Ji1gA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesCreacionales.uml#_sOwtAeRAEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_v4WC0ORAEeuh0NLm_Ji1gA" position="-21.0,-65.0"/>
+      <visibility xmi:id="_vgaD8ORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vgZc4ORAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vgSvMeRAEeuh0NLm_Ji1gA" aggregationKind="NONE" name="carnivoro" navigable="true">
+      <modelElement href="PatronesCreacionales.uml#_sOUoIORAEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_v4Wp4ORAEeuh0NLm_Ji1gA" position="78.0,-24.00000000000003"/>
+      <visibility xmi:id="_vgb5IeRAEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_vgb5IORAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vf-mIORAEeuh0NLm_Ji1gA" targetItem="_vgjN4ORAEeuh0NLm_Ji1gA" sourceItem="_vfxKwORAEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vhJq0ORAEeuh0NLm_Ji1gA" sourceAnchor="66.0,0.0" targetAnchor="41.0,27.0" superClass="_vZxQcORAEeuh0NLm_Ji1gA" subClass="_vhwu0ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOQ9wORAEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_4BKkEORAEeuh0NLm_Ji1gA" sourceY="-38" targetX="-26" targetY="65"/>
+    <bendpoints xmi:id="_4BKkEeRAEeuh0NLm_Ji1gA" sourceX="26" sourceY="-38" targetY="65"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_vhtrgORAEeuh0NLm_Ji1gA" targetItem="_vhwu0ORAEeuh0NLm_Ji1gA" sourceItem="_vhtEcORAEeuh0NLm_Ji1gA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vWZMUORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vWghEORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vWkygORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOnjEORAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vW_pQORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vXQvAORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vXSkMORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoKIORAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vXjp8ORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vXweQORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vXy6gORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoxMORAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vYKG4ORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vYdB0ORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vYp2IORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoxMeRAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vZTWYORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vZu0MORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vZxQcORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoxMuRAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vaebEORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vaebEeRAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vaoMEORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoxM-RAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vbyCoORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vbypsORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vb2UEORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOoxNORAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vdEcEORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vdLw0ORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vdPbMORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOpYQORAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vd0C8ORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vePgwORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vfAVwORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOpYQeRAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vfxKwORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vf-mIORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vgjN4ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOpYQuRAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_vhtEcORAEeuh0NLm_Ji1gA" sourceConnectionVisual="_vhtrgORAEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_vhwu0ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sOpYQ-RAEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vXy6gORAEeuh0NLm_Ji1gA" comments="_vXjp8ORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vXweQORAEeuh0NLm_Ji1gA" name="Carnivoro" abstractClass="true" associationsIn="_vfeP0ORAEeuh0NLm_Ji1gA" subclassedBy="_vbXy8ORAEeuh0NLm_Ji1gA _vci3oORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLmEQORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vXy6geRAEeuh0NLm_Ji1gA" position="49.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vXy6guRAEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_vXy6g-RAEeuh0NLm_Ji1gA" abstractOperation="true" name="come">
+      <modelElement href="PatronesCreacionales.uml#_sOHz0eRAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vXy6hORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vXy6heRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vXy6huRAEeuh0NLm_Ji1gA" name="h">
+        <modelElement href="PatronesCreacionales.uml#_sOIa4ORAEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_vXy6h-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+        <type xmi:id="_vXy6iORAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vZxQcORAEeuh0NLm_Ji1gA" comments="_vZTWYORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vZu0MORAEeuh0NLm_Ji1gA" name="Herbivoro" abstractClass="true" associationsIn="_vfKt0ORAEeuh0NLm_Ji1gA" subclassedBy="_vaGAkORAEeuh0NLm_Ji1gA _vhJq0ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vZxQceRAEeuh0NLm_Ji1gA" position="224.0,134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vZxQcuRAEeuh0NLm_Ji1gA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vaoMEORAEeuh0NLm_Ji1gA" comments="_vaebEORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vaebEeRAEeuh0NLm_Ji1gA" name="Impala" generalizations="_vaGAkORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLvOMORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vaoMEeRAEeuh0NLm_Ji1gA" position="330.0,264.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vaoMEuRAEeuh0NLm_Ji1gA" label="~"/>
+    <operations xmi:id="_vaoME-RAEeuh0NLm_Ji1gA" name="Impala">
+      <modelElement href="PatronesCreacionales.uml#_sLwcUORAEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_vaoMFORAEeuh0NLm_Ji1gA" keyword="create"/>
+      <stereotypes xmi:id="_vaoMFeRAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sLxqceRAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vaoMFuRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vaoMF-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vaoMGORAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sLyRgORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vaoMGeRAEeuh0NLm_Ji1gA" name="Impala">
+          <modelElement href="PatronesCreacionales.uml#_sLvOMORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vb2UEORAEeuh0NLm_Ji1gA" comments="_vbyCoORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vbypsORAEeuh0NLm_Ji1gA" name="Leon" generalizations="_vbXy8ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sL0GsORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vb2UEeRAEeuh0NLm_Ji1gA" position="10.0,371.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vb2UEuRAEeuh0NLm_Ji1gA" label="~"/>
+    <operations xmi:id="_vb2UE-RAEeuh0NLm_Ji1gA" name="Leon">
+      <modelElement href="PatronesCreacionales.uml#_sL0twORAEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_vb2UFORAEeuh0NLm_Ji1gA" keyword="create"/>
+      <stereotypes xmi:id="_vb2UFeRAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sL174ORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vb2UFuRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vb2UF-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vb2UGORAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sL174eRAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vb2UGeRAEeuh0NLm_Ji1gA" name="Leon">
+          <modelElement href="PatronesCreacionales.uml#_sL0GsORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vb2UGuRAEeuh0NLm_Ji1gA" name="come">
+      <modelElement href="PatronesCreacionales.uml#_sOKQEORAEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_vb2UG-RAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sOK3IORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vb2UHORAEeuh0NLm_Ji1gA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_sOMFQORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vb2UHeRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vb2UHuRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vb2UH-RAEeuh0NLm_Ji1gA" name="h">
+        <modelElement href="PatronesCreacionales.uml#_sOKQEeRAEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_vb2UIORAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+        <type xmi:id="_vb2UIeRAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vfAVwORAEeuh0NLm_Ji1gA" comments="_vd0C8ORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vePgwORAEeuh0NLm_Ji1gA" name="Main">
+    <modelElement href="PatronesCreacionales.uml#_sL93sORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vfAVweRAEeuh0NLm_Ji1gA" position="14.0,771.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vfAVwuRAEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_vfAVw-RAEeuh0NLm_Ji1gA" name="main" staticOperation="true">
+      <modelElement href="PatronesCreacionales.uml#_sL_F0ORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vfAVxORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vfAVxeRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vfAVxuRAEeuh0NLm_Ji1gA" name="args">
+        <modelElement href="PatronesCreacionales.uml#_sL_s4ORAEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_vfAVx-RAEeuh0NLm_Ji1gA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_vfAVyORAEeuh0NLm_Ji1gA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vgjN4ORAEeuh0NLm_Ji1gA" comments="_vfxKwORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vf-mIORAEeuh0NLm_Ji1gA" name="ReinoAnimal" associationsOut="_vfKt0ORAEeuh0NLm_Ji1gA _vfeP0ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sMBiEORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vgjN4eRAEeuh0NLm_Ji1gA" position="525.0,202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vgjN4uRAEeuh0NLm_Ji1gA" label="+"/>
+    <attributes xmi:id="_vgjN4-RAEeuh0NLm_Ji1gA" name="herbivoro">
+      <modelElement href="PatronesCreacionales.uml#_sOSy8ORAEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_vgjN5ORAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sOUBEORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vgjN5eRAEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_vgjN5uRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <type xmi:id="_vgjN5-RAEeuh0NLm_Ji1gA" name="Herbivoro">
+        <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vgjN6ORAEeuh0NLm_Ji1gA" name="carnivoro">
+      <modelElement href="PatronesCreacionales.uml#_sOUoIORAEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_vgjN6eRAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sOVPMORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vgjN6uRAEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_vgjN6-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <type xmi:id="_vgjN7ORAEeuh0NLm_Ji1gA" name="Carnivoro">
+        <modelElement href="PatronesCreacionales.uml#_sLmEQORAEeuh0NLm_Ji1gA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vgjN7eRAEeuh0NLm_Ji1gA" name="cadenaAlimenticia">
+      <modelElement href="PatronesCreacionales.uml#_sMElYORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vgjN7uRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vgjN7-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vgjN8ORAEeuh0NLm_Ji1gA" name="ReinoAnimal">
+      <modelElement href="PatronesCreacionales.uml#_sOQWsORAEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_vgjN8eRAEeuh0NLm_Ji1gA" keyword="create"/>
+      <visibility xmi:id="_vgjN8uRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vgjN8-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vgjN9ORAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOQWtORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vgjN9eRAEeuh0NLm_Ji1gA" name="ReinoAnimal">
+          <modelElement href="PatronesCreacionales.uml#_sMBiEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vgjN9uRAEeuh0NLm_Ji1gA" name="fabrica">
+        <modelElement href="PatronesCreacionales.uml#_sOQWseRAEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_vgjN9-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+        <type xmi:id="_vgjN-ORAEeuh0NLm_Ji1gA" name="ContinenteFactory">
+          <modelElement href="PatronesCreacionales.uml#_sLpHkORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vhwu0ORAEeuh0NLm_Ji1gA" comments="_vhtEcORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vhtrgORAEeuh0NLm_Ji1gA" name="Vaca" generalizations="_vhJq0ORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sMIPwORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vhxV4ORAEeuh0NLm_Ji1gA" position="173.0,264.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vhxV4eRAEeuh0NLm_Ji1gA" label="~"/>
+    <operations xmi:id="_vhxV4uRAEeuh0NLm_Ji1gA" name="Vaca">
+      <modelElement href="PatronesCreacionales.uml#_sMI20ORAEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_vhxV4-RAEeuh0NLm_Ji1gA" keyword="create"/>
+      <stereotypes xmi:id="_vhxV5ORAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sMKE8ORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vhxV5eRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vhxV5uRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vhxV5-RAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sMKE8eRAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vhxV6ORAEeuh0NLm_Ji1gA" name="Vaca">
+          <modelElement href="PatronesCreacionales.uml#_sMIPwORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vWkygORAEeuh0NLm_Ji1gA" comments="_vWZMUORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vWghEORAEeuh0NLm_Ji1gA" name="AfricaFactory" generalizations="_vYe3AORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLTJUORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vWkygeRAEeuh0NLm_Ji1gA" position="15.0,631.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vWkyguRAEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_vWkyg-RAEeuh0NLm_Ji1gA" name="crearHerbivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLZP8ORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vWkyhORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vWkyheRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vWkyhuRAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOF-oORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vWkyh-RAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vWkyiORAEeuh0NLm_Ji1gA" name="crearCarnivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLcTQORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vWkyieRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vWkyiuRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vWkyi-RAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOGlsORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vWkyjORAEeuh0NLm_Ji1gA" name="Carnivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLmEQORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vXSkMORAEeuh0NLm_Ji1gA" comments="_vW_pQORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vXQvAORAEeuh0NLm_Ji1gA" name="AmericaFactory" generalizations="_vYgFIORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLgksORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vXSkMeRAEeuh0NLm_Ji1gA" position="262.0,618.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vXSkMuRAEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_vXSkM-RAEeuh0NLm_Ji1gA" name="crearHerbivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLhy0ORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vXSkNORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vXSkNeRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vXSkNuRAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOHMwORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vXSkN-RAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vXSkOORAEeuh0NLm_Ji1gA" name="crearCarnivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLjA8ORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vXSkOeRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vXSkOuRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vXSkO-RAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOHMweRAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vXSkPORAEeuh0NLm_Ji1gA" name="Carnivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLmEQORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vYp2IORAEeuh0NLm_Ji1gA" comments="_vYKG4ORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vYdB0ORAEeuh0NLm_Ji1gA" name="ContinenteFactory" abstractClass="true" subclassedBy="_vYe3AORAEeuh0NLm_Ji1gA _vYgFIORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sLpHkORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vYp2IeRAEeuh0NLm_Ji1gA" position="43.0,501.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vYp2IuRAEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_vYp2I-RAEeuh0NLm_Ji1gA" abstractOperation="true" name="crearHerbivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLqVsORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vYp2JORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vYp2JeRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vYp2JuRAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOJB8ORAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vYp2J-RAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vYp2KORAEeuh0NLm_Ji1gA" abstractOperation="true" name="crearCarnivoro">
+      <modelElement href="PatronesCreacionales.uml#_sLrj0ORAEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_vYp2KeRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vYp2KuRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vYp2K-RAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sOJB8eRAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vYp2LORAEeuh0NLm_Ji1gA" name="Carnivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLmEQORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vdPbMORAEeuh0NLm_Ji1gA" comments="_vdEcEORAEeuh0NLm_Ji1gA" targetConnectionVisual="_vdLw0ORAEeuh0NLm_Ji1gA" name="Lobo" generalizations="_vci3oORAEeuh0NLm_Ji1gA">
+    <modelElement href="PatronesCreacionales.uml#_sL3xEORAEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_vdPbMeRAEeuh0NLm_Ji1gA" position="231.0,358.0" size="215.0,130.0"/>
+    <visibility xmi:id="_vdPbMuRAEeuh0NLm_Ji1gA" label="~"/>
+    <operations xmi:id="_vdPbM-RAEeuh0NLm_Ji1gA" name="Lobo">
+      <modelElement href="PatronesCreacionales.uml#_sL5mQORAEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_vdPbNORAEeuh0NLm_Ji1gA" keyword="create"/>
+      <stereotypes xmi:id="_vdPbNeRAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sL60YORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vdPbNuRAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vdPbN-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vdPbOORAEeuh0NLm_Ji1gA">
+        <modelElement href="PatronesCreacionales.uml#_sL60YeRAEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_vdQCQORAEeuh0NLm_Ji1gA" name="Lobo">
+          <modelElement href="PatronesCreacionales.uml#_sL3xEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vdQCQeRAEeuh0NLm_Ji1gA" name="come">
+      <modelElement href="PatronesCreacionales.uml#_sONTYORAEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_vdQCQuRAEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_sOOhgORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vdQCQ-RAEeuh0NLm_Ji1gA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_sOPIkORAEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_vdQCRORAEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_vdQCReRAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vdQCRuRAEeuh0NLm_Ji1gA" name="h">
+        <modelElement href="PatronesCreacionales.uml#_sONTYeRAEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_vdQCR-RAEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+        <type xmi:id="_vdQCSORAEeuh0NLm_Ji1gA" name="Herbivoro">
+          <modelElement href="PatronesCreacionales.uml#_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

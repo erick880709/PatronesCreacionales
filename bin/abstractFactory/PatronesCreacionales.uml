@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ruG3AORAEeuh0NLm_Ji1gA" name="PatronesCreacionales">
+    <eAnnotations xmi:id="_r_Q4cORAEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_r_RfgORAEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_r_RfgeRAEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesCreacionales/src"/>
+        <details xmi:id="_s0pBQORAEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesCreacionales/src/abstractFactory/AfricaFactory.java;4130302178/1;/PatronesCreacionales/src/abstractFactory/AmericaFactory.java;497798287/1;/PatronesCreacionales/src/abstractFactory/Carnivoro.java;1529954261/1;/PatronesCreacionales/src/abstractFactory/ContinenteFactory.java;3555236825/1;/PatronesCreacionales/src/abstractFactory/Herbivoro.java;64548435/1;/PatronesCreacionales/src/abstractFactory/Impala.java;3149315800/1;/PatronesCreacionales/src/abstractFactory/Leon.java;3189627173/1;/PatronesCreacionales/src/abstractFactory/Lobo.java;328074620/1;/PatronesCreacionales/src/abstractFactory/Main.java;24419664/1;/PatronesCreacionales/src/abstractFactory/ReinoAnimal.java;1346655549/1;/PatronesCreacionales/src/abstractFactory/Vaca.java;3335638736/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_sKXVMORAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_sKX8QORAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_sKX8QeRAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_sKX8QuRAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_sKYjUORAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_sKYjUeRAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_sKZKYORAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_sKZKYeRAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_sKaYgORAEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sKiUUORAEeuh0NLm_Ji1gA" name="abstractFactory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLTJUORAEeuh0NLm_Ji1gA" name="AfricaFactory">
+        <ownedComment xmi:id="_sOnjEORAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOGlseRAEeuh0NLm_Ji1gA" general="_sLpHkORAEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOfAMORAEeuh0NLm_Ji1gA" name="crearHerbivoro" specification="_sLZP8ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOfAMeRAEeuh0NLm_Ji1gA" type="_sLuAEORAEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return new Impala();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOjRoORAEeuh0NLm_Ji1gA" name="crearCarnivoro" specification="_sLcTQORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOjRoeRAEeuh0NLm_Ji1gA" type="_sLmEQORAEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return new Leon();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sLZP8ORAEeuh0NLm_Ji1gA" name="crearHerbivoro" method="_sOfAMORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOF-oORAEeuh0NLm_Ji1gA" type="_sLuAEORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sLcTQORAEeuh0NLm_Ji1gA" name="crearCarnivoro" method="_sOjRoORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOGlsORAEeuh0NLm_Ji1gA" type="_sLmEQORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLgksORAEeuh0NLm_Ji1gA" name="AmericaFactory">
+        <ownedComment xmi:id="_sOoKIORAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOHz0ORAEeuh0NLm_Ji1gA" general="_sLpHkORAEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOj4sORAEeuh0NLm_Ji1gA" name="crearHerbivoro" specification="_sLhy0ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOj4seRAEeuh0NLm_Ji1gA" type="_sLuAEORAEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return new Vaca();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOkfwORAEeuh0NLm_Ji1gA" name="crearCarnivoro" specification="_sLjA8ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOkfweRAEeuh0NLm_Ji1gA" type="_sLmEQORAEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return new Lobo();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sLhy0ORAEeuh0NLm_Ji1gA" name="crearHerbivoro" method="_sOj4sORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOHMwORAEeuh0NLm_Ji1gA" type="_sLuAEORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sLjA8ORAEeuh0NLm_Ji1gA" name="crearCarnivoro" method="_sOkfwORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOHMweRAEeuh0NLm_Ji1gA" type="_sLmEQORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLmEQORAEeuh0NLm_Ji1gA" name="Carnivoro" isAbstract="true">
+        <ownedComment xmi:id="_sOoxMORAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_sOHz0eRAEeuh0NLm_Ji1gA" name="come" isAbstract="true">
+          <ownedParameter xmi:id="_sOIa4ORAEeuh0NLm_Ji1gA" name="h" type="_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLpHkORAEeuh0NLm_Ji1gA" name="ContinenteFactory" isAbstract="true">
+        <ownedComment xmi:id="_sOoxMeRAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_sLqVsORAEeuh0NLm_Ji1gA" name="crearHerbivoro" isAbstract="true">
+          <ownedParameter xmi:id="_sOJB8ORAEeuh0NLm_Ji1gA" type="_sLuAEORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sLrj0ORAEeuh0NLm_Ji1gA" name="crearCarnivoro" isAbstract="true">
+          <ownedParameter xmi:id="_sOJB8eRAEeuh0NLm_Ji1gA" type="_sLmEQORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLuAEORAEeuh0NLm_Ji1gA" name="Herbivoro" isAbstract="true">
+        <ownedComment xmi:id="_sOoxMuRAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sLvOMORAEeuh0NLm_Ji1gA" name="Impala" visibility="package">
+        <ownedComment xmi:id="_sOoxM-RAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOJB8uRAEeuh0NLm_Ji1gA" general="_sLuAEORAEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_sLwcUORAEeuh0NLm_Ji1gA" name="Impala">
+          <eAnnotations xmi:id="_sLxDYORAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sLxqcORAEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sLyRgORAEeuh0NLm_Ji1gA" type="_sLvOMORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sL0GsORAEeuh0NLm_Ji1gA" name="Leon" visibility="package">
+        <ownedComment xmi:id="_sOoxNORAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOMsUeRAEeuh0NLm_Ji1gA" general="_sLmEQORAEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOkfwuRAEeuh0NLm_Ji1gA" name="come" specification="_sOKQEORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOkfw-RAEeuh0NLm_Ji1gA" name="h" type="_sLuAEORAEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>System.out.println(this.getClass().getSimpleName()+&quot; COME &quot;+h.getClass().getSimpleName());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sL0twORAEeuh0NLm_Ji1gA" name="Leon">
+          <eAnnotations xmi:id="_sL1U0ORAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sL1U0eRAEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sL174eRAEeuh0NLm_Ji1gA" type="_sL0GsORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sOKQEORAEeuh0NLm_Ji1gA" name="come" method="_sOkfwuRAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOKQEeRAEeuh0NLm_Ji1gA" name="h" type="_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sL3xEORAEeuh0NLm_Ji1gA" name="Lobo" visibility="package">
+        <ownedComment xmi:id="_sOpYQORAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOPIkuRAEeuh0NLm_Ji1gA" general="_sLmEQORAEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOlG0ORAEeuh0NLm_Ji1gA" name="come" specification="_sONTYORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOlG0eRAEeuh0NLm_Ji1gA" name="h" type="_sLuAEORAEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>System.out.println(this.getClass().getSimpleName()+&quot; COME &quot;+h.getClass().getSimpleName());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sL5mQORAEeuh0NLm_Ji1gA" name="Lobo">
+          <eAnnotations xmi:id="_sL5mQeRAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sL5mQuRAEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sL60YeRAEeuh0NLm_Ji1gA" type="_sL3xEORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sONTYORAEeuh0NLm_Ji1gA" name="come" method="_sOlG0ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sONTYeRAEeuh0NLm_Ji1gA" name="h" type="_sLuAEORAEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sL93sORAEeuh0NLm_Ji1gA" name="Main">
+        <ownedComment xmi:id="_sOpYQeRAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOlt4ORAEeuh0NLm_Ji1gA" name="main" specification="_sL_F0ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOlt4eRAEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sOlt4uRAEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ContinenteFactory africa = new AfricaFactory();&#xD;
+     ReinoAnimal reino = new ReinoAnimal(africa);&#xD;
+     reino.cadenaAlimenticia();&#xD;
+     &#xD;
+     ContinenteFactory america = new AmericaFactory();&#xD;
+     reino = new ReinoAnimal(america);&#xD;
+     reino.cadenaAlimenticia();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sL_F0ORAEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_sOlt4ORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sL_s4ORAEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sMAT8ORAEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sMBiEORAEeuh0NLm_Ji1gA" name="ReinoAnimal">
+        <ownedComment xmi:id="_sOpYQuRAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_sOSy8ORAEeuh0NLm_Ji1gA" name="herbivoro" visibility="private" type="_sLuAEORAEeuh0NLm_Ji1gA" association="_sOuQwORAEeuh0NLm_Ji1gA"/>
+        <ownedAttribute xmi:id="_sOUoIORAEeuh0NLm_Ji1gA" name="carnivoro" visibility="private" type="_sLmEQORAEeuh0NLm_Ji1gA" association="_sOwtAORAEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOmU8ORAEeuh0NLm_Ji1gA" name="ReinoAnimal" specification="_sOQWsORAEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_sOmU8eRAEeuh0NLm_Ji1gA" name="fabrica" type="_sLpHkORAEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_sOmU8uRAEeuh0NLm_Ji1gA" type="_sMBiEORAEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>herbivoro = fabrica.crearHerbivoro();&#xD;
+     carnivoro = fabrica.crearCarnivoro();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOm8AORAEeuh0NLm_Ji1gA" name="cadenaAlimenticia" specification="_sMElYORAEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>carnivoro.come(herbivoro);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sMElYORAEeuh0NLm_Ji1gA" name="cadenaAlimenticia" method="_sOm8AORAEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_sOQWsORAEeuh0NLm_Ji1gA" name="ReinoAnimal" method="_sOmU8ORAEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_sOQWsuRAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sOQWs-RAEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sOQWseRAEeuh0NLm_Ji1gA" name="fabrica" type="_sLpHkORAEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_sOQWtORAEeuh0NLm_Ji1gA" type="_sMBiEORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sMIPwORAEeuh0NLm_Ji1gA" name="Vaca" visibility="package">
+        <ownedComment xmi:id="_sOpYQ-RAEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sOQ9wORAEeuh0NLm_Ji1gA" general="_sLuAEORAEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_sMI20ORAEeuh0NLm_Ji1gA" name="Vaca">
+          <eAnnotations xmi:id="_sMJd4ORAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sMJd4eRAEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sMKE8eRAEeuh0NLm_Ji1gA" type="_sMIPwORAEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_sOuQwORAEeuh0NLm_Ji1gA" name="" memberEnd="_sOuQweRAEeuh0NLm_Ji1gA _sOSy8ORAEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_sOuQweRAEeuh0NLm_Ji1gA" name="" type="_sMBiEORAEeuh0NLm_Ji1gA" association="_sOuQwORAEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_sOwtAORAEeuh0NLm_Ji1gA" name="" memberEnd="_sOwtAeRAEeuh0NLm_Ji1gA _sOUoIORAEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_sOwtAeRAEeuh0NLm_Ji1gA" name="" type="_sMBiEORAEeuh0NLm_Ji1gA" association="_sOwtAORAEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_r_TUsORAEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_r_XmIORAEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_r_b3kORAEeuh0NLm_Ji1gA" base_Package="_ruG3AORAEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sLxqceRAEeuh0NLm_Ji1gA" base_Element="_sLwcUORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sL174ORAEeuh0NLm_Ji1gA" base_Element="_sL0twORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sL60YORAEeuh0NLm_Ji1gA" base_Element="_sL5mQORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sMKE8ORAEeuh0NLm_Ji1gA" base_Element="_sMI20ORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOK3IORAEeuh0NLm_Ji1gA" base_Element="_sOKQEORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_sOMFQORAEeuh0NLm_Ji1gA" base_Element="_sOKQEORAEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_sOMsUORAEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOOhgORAEeuh0NLm_Ji1gA" base_Element="_sONTYORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_sOPIkORAEeuh0NLm_Ji1gA" base_Element="_sONTYORAEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_sOPIkeRAEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOUBEORAEeuh0NLm_Ji1gA" base_Element="_sOSy8ORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOVPMORAEeuh0NLm_Ji1gA" base_Element="_sOUoIORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_sOwF8ORAEeuh0NLm_Ji1gA" base_Element="_sOuQwORAEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_sOyiMORAEeuh0NLm_Ji1gA" base_Element="_sOwtAORAEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

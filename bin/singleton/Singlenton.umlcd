@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_NENgEORBEeuh0NLm_Ji1gA">
+  <modelElement href="Singlenton.uml#_NUXb8ORBEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OXwyoORBEeuh0NLm_Ji1gA" sourceAnchor="150.0,0.0" targetAnchor="300.0,69.0" target="_OX_cIORBEeuh0NLm_Ji1gA" source="_OX_cIORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NVDYcORBEeuh0NLm_Ji1gA"/>
+    <bendpoints xmi:id="_OlIgQORBEeuh0NLm_Ji1gA" sourceY="-87" targetX="-150" targetY="-156"/>
+    <bendpoints xmi:id="_OlIgQeRBEeuh0NLm_Ji1gA" sourceX="260" sourceY="-87" targetX="110" targetY="-156"/>
+    <bendpoints xmi:id="_OlJHUORBEeuh0NLm_Ji1gA" sourceX="260" sourceY="69" targetX="110"/>
+    <stereotypes xmi:id="_OX58k-RBEeuh0NLm_Ji1gA" name="Reference">
+      <modelElement href="Singlenton.uml#_NVEmkORBEeuh0NLm_Ji1gA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OX58kORBEeuh0NLm_Ji1gA" text="">
+      <visualProperties xmi:id="_OlKVcORBEeuh0NLm_Ji1gA" position="-242.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_OX58keRBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="">
+      <modelElement href="Singlenton.uml#_NVDYceRBEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_OlJHUeRBEeuh0NLm_Ji1gA" position="-20.5,-49.5"/>
+      <visibility xmi:id="_OX7KseRBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OX7KsORBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OX58kuRBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="instancia" navigable="true">
+      <modelElement href="Singlenton.uml#_NU6OgORBEeuh0NLm_Ji1gA"/>
+      <visualProperties xmi:id="_OlK8gORBEeuh0NLm_Ji1gA" position="5.5,-48.5"/>
+      <visibility xmi:id="_OX7xwORBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX7KsuRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OX4ucORBEeuh0NLm_Ji1gA" targetItem="_OX_cIORBEeuh0NLm_Ji1gA" sourceItem="_OX4HYORBEeuh0NLm_Ji1gA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OX9m8ORBEeuh0NLm_Ji1gA" source="_OX_cIORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NVFNoORBEeuh0NLm_Ji1gA"/>
+    <stereotypes xmi:id="_OX9m8eRBEeuh0NLm_Ji1gA" name="Reference">
+      <modelElement href="Singlenton.uml#_NVGbwORBEeuh0NLm_Ji1gA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OX9m8uRBEeuh0NLm_Ji1gA" text=""/>
+    <sourceRole xmi:id="_OX9m8-RBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="">
+      <modelElement href="Singlenton.uml#_NVFNoeRBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX9m9ORBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OX9m9eRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OX9m9uRBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="servidores" navigable="true">
+      <modelElement href="Singlenton.uml#_NU8DsORBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX9m9-RBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX9m-ORBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OX-1EORBEeuh0NLm_Ji1gA" source="_OX_cIORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NVGbweRBEeuh0NLm_Ji1gA"/>
+    <stereotypes xmi:id="_OX-1EeRBEeuh0NLm_Ji1gA" name="Reference">
+      <modelElement href="Singlenton.uml#_NVHp4ORBEeuh0NLm_Ji1gA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OX-1EuRBEeuh0NLm_Ji1gA" text=""/>
+    <sourceRole xmi:id="_OX-1E-RBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="">
+      <modelElement href="Singlenton.uml#_NVGbwuRBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX-1FORBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OX-1FeRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OX-1FuRBEeuh0NLm_Ji1gA" aggregationKind="NONE" name="rnd" navigable="true">
+      <modelElement href="Singlenton.uml#_NU944eRBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX-1F-RBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX-1GORBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_OYjc0ORBEeuh0NLm_Ji1gA" targetItem="_OYoVUORBEeuh0NLm_Ji1gA" sourceItem="_OYXPkORBEeuh0NLm_Ji1gA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OX4HYORBEeuh0NLm_Ji1gA" sourceConnectionVisual="_OX4ucORBEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_OX_cIORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NVBjQ-RBEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_OYXPkORBEeuh0NLm_Ji1gA" sourceConnectionVisual="_OYjc0ORBEeuh0NLm_Ji1gA" text="*&#xD;&#xA;@author jvelez" item="_OYoVUORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NVCKUORBEeuh0NLm_Ji1gA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OX_cIORBEeuh0NLm_Ji1gA" comments="_OX4HYORBEeuh0NLm_Ji1gA" targetConnectionVisual="_OX4ucORBEeuh0NLm_Ji1gA" name="BalanceadorCargas" associationsIn="_OXwyoORBEeuh0NLm_Ji1gA" associationsOut="_OXwyoORBEeuh0NLm_Ji1gA _OX9m8ORBEeuh0NLm_Ji1gA _OX-1EORBEeuh0NLm_Ji1gA">
+    <modelElement href="Singlenton.uml#_NUbtYORBEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_OX_cIeRBEeuh0NLm_Ji1gA" position="11.0,117.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OX_cIuRBEeuh0NLm_Ji1gA" label="+"/>
+    <attributes xmi:id="_OX_cI-RBEeuh0NLm_Ji1gA" name="instancia" staticAttribute="true">
+      <modelElement href="Singlenton.uml#_NU6OgORBEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_OX_cJORBEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="Singlenton.uml#_NU7coORBEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_OX_cJeRBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX_cJuRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <type xmi:id="_OX_cJ-RBEeuh0NLm_Ji1gA" name="BalanceadorCargas">
+        <modelElement href="Singlenton.uml#_NUbtYORBEeuh0NLm_Ji1gA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OX_cKORBEeuh0NLm_Ji1gA" defaultValue="new ArrayList&lt;>()" name="servidores">
+      <modelElement href="Singlenton.uml#_NU8DsORBEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_OX_cKeRBEeuh0NLm_Ji1gA" name="Generics">
+        <modelElement href="Singlenton.uml#_NU9R0ORBEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OX_cKuRBEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="Singlenton.uml#_NU944ORBEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_OX_cK-RBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX_cLORBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <type xmi:id="_OX_cLeRBEeuh0NLm_Ji1gA" name="ArrayList">
+        <modelElement href="Singlenton.uml#_NUxroORBEeuh0NLm_Ji1gA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OX_cLuRBEeuh0NLm_Ji1gA" defaultValue="new Random()" name="rnd">
+      <modelElement href="Singlenton.uml#_NU944eRBEeuh0NLm_Ji1gA"/>
+      <stereotypes xmi:id="_OX_cL-RBEeuh0NLm_Ji1gA" name="LegacyStyledElement">
+        <modelElement href="Singlenton.uml#_NU_HAORBEeuh0NLm_Ji1gA"/>
+      </stereotypes>
+      <visibility xmi:id="_OX_cMORBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX_cMeRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <type xmi:id="_OX_cMuRBEeuh0NLm_Ji1gA" name="Random">
+        <modelElement href="Singlenton.uml#_NUzg0ORBEeuh0NLm_Ji1gA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OX_cM-RBEeuh0NLm_Ji1gA" name="BalanceadorCargas">
+      <modelElement href="Singlenton.uml#_NUdikORBEeuh0NLm_Ji1gA"/>
+      <keywords xmi:id="_OX_cNORBEeuh0NLm_Ji1gA" keyword="create"/>
+      <visibility xmi:id="_OX_cNeRBEeuh0NLm_Ji1gA" label="-"/>
+      <cardinality xmi:id="_OX_cNuRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OX_cN-RBEeuh0NLm_Ji1gA">
+        <modelElement href="Singlenton.uml#_NUeJouRBEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_OX_cOORBEeuh0NLm_Ji1gA" name="BalanceadorCargas">
+          <modelElement href="Singlenton.uml#_NUbtYORBEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OX_cOeRBEeuh0NLm_Ji1gA" name="getBalanceadorCargas" staticOperation="true">
+      <modelElement href="Singlenton.uml#_NUewsORBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX_cOuRBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OX_cO-RBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OX_cPORBEeuh0NLm_Ji1gA">
+        <modelElement href="Singlenton.uml#_NU19EORBEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_OX_cPeRBEeuh0NLm_Ji1gA" name="BalanceadorCargas">
+          <modelElement href="Singlenton.uml#_NUbtYORBEeuh0NLm_Ji1gA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OX_cPuRBEeuh0NLm_Ji1gA" name="getServidor">
+      <modelElement href="Singlenton.uml#_NUfXwORBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OX_cP-RBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OX_cQORBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OX_cQeRBEeuh0NLm_Ji1gA">
+        <modelElement href="Singlenton.uml#_NUf-0ORBEeuh0NLm_Ji1gA"/>
+        <type xmi:id="_OX_cQuRBEeuh0NLm_Ji1gA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OYoVUORBEeuh0NLm_Ji1gA" comments="_OYXPkORBEeuh0NLm_Ji1gA" targetConnectionVisual="_OYjc0ORBEeuh0NLm_Ji1gA" name="Main">
+    <modelElement href="Singlenton.uml#_NUjCIORBEeuh0NLm_Ji1gA"/>
+    <visualProperties xmi:id="_OYoVUeRBEeuh0NLm_Ji1gA" position="14.0,315.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_OYoVUuRBEeuh0NLm_Ji1gA" label="+"/>
+    <operations xmi:id="_OYoVU-RBEeuh0NLm_Ji1gA" name="main" staticOperation="true">
+      <modelElement href="Singlenton.uml#_NUjpMORBEeuh0NLm_Ji1gA"/>
+      <visibility xmi:id="_OYoVVORBEeuh0NLm_Ji1gA" label="+"/>
+      <cardinality xmi:id="_OYoVVeRBEeuh0NLm_Ji1gA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_OYoVVuRBEeuh0NLm_Ji1gA" name="args">
+        <modelElement href="Singlenton.uml#_NUjpMeRBEeuh0NLm_Ji1gA"/>
+        <cardinality xmi:id="_OYoVV-RBEeuh0NLm_Ji1gA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_OYoVWORBEeuh0NLm_Ji1gA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

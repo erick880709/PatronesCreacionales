@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_AAsBgOUUEeu518O4MRMQJA" name="PatronesCreacionales">
+    <eAnnotations xmi:id="_ALtlwOUUEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ALtlweUUEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_ALtlwuUUEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesCreacionales/src"/>
+        <details xmi:id="_AY_MwOUUEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesCreacionales/src/factoryMethod/FabricaPlanes.java;1278286559/1;/PatronesCreacionales/src/factoryMethod/Main.java;613229456/1;/PatronesCreacionales/src/factoryMethod/Plan.java;47813416/1;/PatronesCreacionales/src/factoryMethod/PlanComercial.java;438366603/1;/PatronesCreacionales/src/factoryMethod/PlanDomestico.java;3979304621/1;/PatronesCreacionales/src/factoryMethod/PlanInstitucional.java;2803277768/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_AUjYsOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_AUj_wOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_AUj_weUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_AUj_wuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_AUkm0OUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_AUkm0eUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_AUkm0uUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_AUlN4OUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_AUl08OUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AUmcAOUUEeu518O4MRMQJA" name="factoryMethod">
+      <packagedElement xmi:type="uml:Class" xmi:id="_AUzQUOUUEeu518O4MRMQJA" name="FabricaPlanes">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVXRAOUUEeu518O4MRMQJA" name="getPlan" specification="_AU0ecOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AVXRAeUUEeu518O4MRMQJA" name="tipoPlan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_AVXRAuUUEeu518O4MRMQJA" type="_AU4I0OUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>if(tipoPlan == null){
+         return null;            
+     }
+     else if(tipoPlan.equalsIgnoreCase(&quot;DOMESTICO&quot;)){
+         return new PlanDomestico();
+     }
+     else if(tipoPlan.equalsIgnoreCase(&quot;COMERCIAL&quot;)){
+         return new PlanComercial();
+     }
+     else if(tipoPlan.equalsIgnoreCase(&quot;INSTITUCIONAL&quot;)){
+         return new PlanInstitucional();
+     }
+     return null;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU0ecOUUEeu518O4MRMQJA" name="getPlan" method="_AVXRAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AU1FgOUUEeu518O4MRMQJA" name="tipoPlan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_AVU0wOUUEeu518O4MRMQJA" type="_AU4I0OUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AU2ToOUUEeu518O4MRMQJA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVXRA-UUEeu518O4MRMQJA" name="main" specification="_AU26sOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AVXRBOUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AVXRBeUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>FabricaPlanes fabrica = new FabricaPlanes();
+     String nombrePlan = &quot;Comercial&quot;;
+     int unidades = 230;
+     
+     Plan plan = fabrica.getPlan(nombrePlan);
+     
+     System.out.println(&quot;La cuenta para el plan: &quot;+nombrePlan+&quot; con &quot;+unidades+&quot; unidades es: &quot;);
+     plan.getTasa();
+     plan.calcularCuenta(unidades);
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU26sOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_AVXRA-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AU3hwOUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AU3hweUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AU4I0OUUEeu518O4MRMQJA" name="Plan" isAbstract="true">
+        <ownedAttribute xmi:id="_AVWC4eUUEeu518O4MRMQJA" name="tasa" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVXRBuUUEeu518O4MRMQJA" name="calcularCuenta" specification="_AU5W8OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AVXRB-UUEeu518O4MRMQJA" name="unidades">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(unidades * tasa);
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU4v4OUUEeu518O4MRMQJA" name="getTasa" visibility="package" isAbstract="true"/>
+        <ownedOperation xmi:id="_AU5W8OUUEeu518O4MRMQJA" name="calcularCuenta" method="_AVXRBuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_AU5W8eUUEeu518O4MRMQJA" name="unidades">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AU5-AOUUEeu518O4MRMQJA" name="PlanComercial">
+        <generalization xmi:id="_AVVb0OUUEeu518O4MRMQJA" general="_AU4I0OUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVX4EOUUEeu518O4MRMQJA" name="getTasa" specification="_AU6lEOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>tasa = 7.5;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU6lEOUUEeu518O4MRMQJA" name="getTasa" visibility="package" method="_AVX4EOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AU7zMOUUEeu518O4MRMQJA" name="PlanDomestico">
+        <generalization xmi:id="_AVVb0eUUEeu518O4MRMQJA" general="_AU4I0OUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVX4EeUUEeu518O4MRMQJA" name="getTasa" specification="_AU8aQOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>tasa = 3.5;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU8aQOUUEeu518O4MRMQJA" name="getTasa" visibility="package" method="_AVX4EeUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AU9oYOUUEeu518O4MRMQJA" name="PlanInstitucional">
+        <generalization xmi:id="_AVWC4OUUEeu518O4MRMQJA" general="_AU4I0OUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_AVX4EuUUEeu518O4MRMQJA" name="getTasa" specification="_AU9oYeUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>tasa = 5.5;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_AU9oYeUUEeu518O4MRMQJA" name="getTasa" visibility="package" method="_AVX4EuUUEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_APQB8OUUEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_APQB8eUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_APQpAOUUEeu518O4MRMQJA" base_Package="_AAsBgOUUEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AU6lEeUUEeu518O4MRMQJA" base_Element="_AU6lEOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_AU7MIOUUEeu518O4MRMQJA" base_Element="_AU6lEOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_AU7MIeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AU8aQeUUEeu518O4MRMQJA" base_Element="_AU8aQOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_AU9BUOUUEeu518O4MRMQJA" base_Element="_AU8aQOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_AU9BUeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AU-PcOUUEeu518O4MRMQJA" base_Element="_AU9oYeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_AU-2gOUUEeu518O4MRMQJA" base_Element="_AU9oYeUUEeu518O4MRMQJA">
+    <annotations xmi:id="_AU-2geUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_AVWp8OUUEeu518O4MRMQJA" base_Element="_AVWC4eUUEeu518O4MRMQJA"/>
+</xmi:XMI>

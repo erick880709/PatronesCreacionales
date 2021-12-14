@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_FtfzUOUUEeu518O4MRMQJA">
+  <modelElement href="PatronesCreacionales.uml#_F84TIOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_HFA_4OUUEeu518O4MRMQJA" targetItem="_HFv_sOUUEeu518O4MRMQJA" sourceItem="_HE8ucOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HFA_4eUUEeu518O4MRMQJA" sourceAnchor="290.0,0.0" targetAnchor="84.0,70.0" dashed="true" superClass="_HFv_sOUUEeu518O4MRMQJA" subClass="_HFBm8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_F9QtoOUUEeu518O4MRMQJA"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_HE8ucOUUEeu518O4MRMQJA" sourceConnectionVisual="_HFA_4OUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author JVelez" item="_HFv_sOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_F9aeoOUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HFBm8OUUEeu518O4MRMQJA" name="Empleado" generalizations="_HFA_4eUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_F89ysOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_HFBm8eUUEeu518O4MRMQJA" position="11.0,125.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HFBm8uUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_HFBm8-UUEeu518O4MRMQJA" name="id">
+      <modelElement href="PatronesCreacionales.uml#_F9Si0OUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBm9OUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9TJ4OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBm9eUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_HFBm9uUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_HFBm9-UUEeu518O4MRMQJA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HFBm-OUUEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesCreacionales.uml#_F9TJ4eUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBm-eUUEeu518O4MRMQJA" name="MultiDeclaration">
+        <modelElement href="PatronesCreacionales.uml#_F9Tw8OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HFBm-uUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9UYAOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBm--UUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_HFBm_OUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_HFBm_eUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HFBm_uUUEeu518O4MRMQJA" name="salario">
+      <modelElement href="PatronesCreacionales.uml#_F9U_EOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBm_-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9VmIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBnAOUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_HFBnAeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_HFBnAuUUEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HFBnA-UUEeu518O4MRMQJA" name="cargo">
+      <modelElement href="PatronesCreacionales.uml#_F9YpcOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBnBOUUEeu518O4MRMQJA" name="MultiDeclaration">
+        <modelElement href="PatronesCreacionales.uml#_F9ZQgOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HFBnBeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9ZQgeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBnBuUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_HFBnB-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_HFBnCOUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HFBnCeUUEeu518O4MRMQJA" name="direccion">
+      <modelElement href="PatronesCreacionales.uml#_F9Z3kOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBnCuUUEeu518O4MRMQJA" name="MultiDeclaration">
+        <modelElement href="PatronesCreacionales.uml#_F9Z3keUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HFBnC-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9Z3kuUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBnDOUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_HFBnDeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_HFBnDuUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HFBnD-UUEeu518O4MRMQJA" name="Empleado">
+      <modelElement href="PatronesCreacionales.uml#_F8_n4OUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_HFBnEOUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_HFBnEeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_HFBnEuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HFBnE-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_F9AO9eUUEeu518O4MRMQJA"/>
+        <type xmi:id="_HFBnFOUUEeu518O4MRMQJA" name="Empleado">
+          <modelElement href="PatronesCreacionales.uml#_F89ysOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HFBnFeUUEeu518O4MRMQJA" name="id">
+        <modelElement href="PatronesCreacionales.uml#_F8_n4eUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFBnFuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_HFBnF-UUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HFBnGOUUEeu518O4MRMQJA" name="nombre">
+        <modelElement href="PatronesCreacionales.uml#_F8_n4uUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFBnGeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_HFBnGuUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HFBnG-UUEeu518O4MRMQJA" name="cargo">
+        <modelElement href="PatronesCreacionales.uml#_F9AO8OUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFBnHOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_HFBnHeUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HFBnHuUUEeu518O4MRMQJA" name="direccion">
+        <modelElement href="PatronesCreacionales.uml#_F9AO8eUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFBnH-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_HFBnIOUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HFBnIeUUEeu518O4MRMQJA" name="salario">
+        <modelElement href="PatronesCreacionales.uml#_F9AO8uUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFBnIuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_HFBnI-UUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HFBnJOUUEeu518O4MRMQJA" name="mostrarEmpleado">
+      <modelElement href="PatronesCreacionales.uml#_F9A2AOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_HFBnJeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_HFBnJuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_HFBnJ-UUEeu518O4MRMQJA" name="clonar">
+      <modelElement href="PatronesCreacionales.uml#_F9A2AeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_HFBnKOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_F9BdEOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HFBnKeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_F9CEIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_HFBnKuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_HFBnK-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HFBnLOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_F9RUsOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_HFBnLeUUEeu518O4MRMQJA" name="Prototype">
+          <modelElement href="PatronesCreacionales.uml#_F9EgYuUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HFT60OUUEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesCreacionales.uml#_F9DSQOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_HFT60eUUEeu518O4MRMQJA" position="11.0,390.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HFT60uUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_HFT60-UUEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesCreacionales.uml#_F9D5UOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_HFT61OUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_HFT61eUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HFT61uUUEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesCreacionales.uml#_F9EgYOUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_HFT61-UUEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_HFT62OUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_HFv_sOUUEeu518O4MRMQJA" comments="_HE8ucOUUEeu518O4MRMQJA" targetConnectionVisual="_HFA_4OUUEeu518O4MRMQJA" name="Prototype" subclassedBy="_HFA_4eUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_F9EgYuUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_HFv_seUUEeu518O4MRMQJA" position="217.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HFv_suUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_HFv_s-UUEeu518O4MRMQJA" name="clonar">
+      <modelElement href="PatronesCreacionales.uml#_F9FHcOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_HFv_tOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_HFv_teUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HFv_tuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_F9R7wOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_HFv_t-UUEeu518O4MRMQJA" name="Prototype">
+          <modelElement href="PatronesCreacionales.uml#_F9EgYuUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

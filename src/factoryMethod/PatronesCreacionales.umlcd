@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_AGsi4OUUEeu518O4MRMQJA">
+  <modelElement href="PatronesCreacionales.uml#_AUmcAOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BhZmUOUUEeu518O4MRMQJA" sourceAnchor="68.0,0.0" targetAnchor="113.0,98.0" superClass="_BhAkwOUUEeu518O4MRMQJA" subClass="_BhqFAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AVVb0OUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_BvnBcOUUEeu518O4MRMQJA" sourceY="-25" targetX="169" targetY="29"/>
+    <bendpoints xmi:id="_BvnBceUUEeu518O4MRMQJA" sourceX="-169" sourceY="-25" targetY="29"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Bh-OEOUUEeu518O4MRMQJA" sourceAnchor="68.0,0.0" targetAnchor="113.0,98.0" superClass="_BhAkwOUUEeu518O4MRMQJA" subClass="_BiOswOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AVVb0eUUEeu518O4MRMQJA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_BilSEOUUEeu518O4MRMQJA" sourceAnchor="67.0,0.0" targetAnchor="113.0,98.0" superClass="_BhAkwOUUEeu518O4MRMQJA" subClass="_Bi9skOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AVWC4OUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_BvnBcuUUEeu518O4MRMQJA" sourceY="-25" targetX="-169" targetY="29"/>
+    <bendpoints xmi:id="_BvnBc-UUEeu518O4MRMQJA" sourceX="169" sourceY="-25" targetY="29"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BgYSoOUUEeu518O4MRMQJA" name="FabricaPlanes">
+    <modelElement href="PatronesCreacionales.uml#_AUzQUOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_BgYSoeUUEeu518O4MRMQJA" position="10.0,313.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BgYSouUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_BgYSo-UUEeu518O4MRMQJA" name="getPlan">
+      <modelElement href="PatronesCreacionales.uml#_AU0ecOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_BgYSpOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_BgYSpeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BgYSpuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_AVU0wOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_BgYSp-UUEeu518O4MRMQJA" name="Plan">
+          <modelElement href="PatronesCreacionales.uml#_AU4I0OUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_BgYSqOUUEeu518O4MRMQJA" name="tipoPlan">
+        <modelElement href="PatronesCreacionales.uml#_AU1FgOUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_BgYSqeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_BgYSquUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BgqmgOUUEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesCreacionales.uml#_AU2ToOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_BgqmgeUUEeu518O4MRMQJA" position="18.0,443.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BgqmguUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_Bgqmg-UUEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesCreacionales.uml#_AU26sOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_BgqmhOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_BgqmheUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BgqmhuUUEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesCreacionales.uml#_AU3hwOUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_Bgqmh-UUEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_BgqmiOUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BhAkwOUUEeu518O4MRMQJA" name="Plan" abstractClass="true" subclassedBy="_BhZmUOUUEeu518O4MRMQJA _Bh-OEOUUEeu518O4MRMQJA _BilSEOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AU4I0OUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_BhAkweUUEeu518O4MRMQJA" position="143.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BhAkwuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_BhAkw-UUEeu518O4MRMQJA" name="tasa">
+      <modelElement href="PatronesCreacionales.uml#_AVWC4eUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_BhAkxOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_AVWp8OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_BhAkxeUUEeu518O4MRMQJA" label="~"/>
+      <cardinality xmi:id="_BhAkxuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_BhAkx-UUEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_BhAkyOUUEeu518O4MRMQJA" abstractOperation="true" name="getTasa">
+      <modelElement href="PatronesCreacionales.uml#_AU4v4OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_BhAkyeUUEeu518O4MRMQJA" label="~"/>
+      <cardinality xmi:id="_BhAkyuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_BhAky-UUEeu518O4MRMQJA" name="calcularCuenta">
+      <modelElement href="PatronesCreacionales.uml#_AU5W8OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_BhAkzOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_BhAkzeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_BhAkzuUUEeu518O4MRMQJA" name="unidades">
+        <modelElement href="PatronesCreacionales.uml#_AU5W8eUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_BhAkz-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_BhAk0OUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BhqFAOUUEeu518O4MRMQJA" name="PlanComercial" generalizations="_BhZmUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AU5-AOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_BhqFAeUUEeu518O4MRMQJA" position="357.0,183.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BhqsEOUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_BhqsEeUUEeu518O4MRMQJA" name="getTasa">
+      <modelElement href="PatronesCreacionales.uml#_AU6lEOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_BhqsEuUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_AU6lEeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BhqsE-UUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_AU7MIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_BhqsFOUUEeu518O4MRMQJA" label="~"/>
+      <cardinality xmi:id="_BhqsFeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_BiOswOUUEeu518O4MRMQJA" name="PlanDomestico" generalizations="_Bh-OEOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AU7zMOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_BiOsweUUEeu518O4MRMQJA" position="188.0,196.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_BiOswuUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_BiOsw-UUEeu518O4MRMQJA" name="getTasa">
+      <modelElement href="PatronesCreacionales.uml#_AU8aQOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_BiOsxOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_AU8aQeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BiOsxeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_AU9BUOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_BiOsxuUUEeu518O4MRMQJA" label="~"/>
+      <cardinality xmi:id="_BiOsx-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Bi9skOUUEeu518O4MRMQJA" name="PlanInstitucional" generalizations="_BilSEOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_AU9oYOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_Bi9skeUUEeu518O4MRMQJA" position="20.0,183.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Bi9skuUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_Bi9sk-UUEeu518O4MRMQJA" name="getTasa">
+      <modelElement href="PatronesCreacionales.uml#_AU9oYeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_Bi9slOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_AU-PcOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Bi9sleUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_AU-2gOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_Bi9sluUUEeu518O4MRMQJA" label="~"/>
+      <cardinality xmi:id="_Bi9sl-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_4Iwb8OUTEeu518O4MRMQJA" name="PatronesCreacionales">
+    <eAnnotations xmi:id="_4nfmYOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_4nfmYeUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_4nfmYuUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesCreacionales/src"/>
+        <details xmi:id="_41XDQOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesCreacionales/src/builder/Tienda.java;4091480814/1;/PatronesCreacionales/src/builder/Main.java;557369594/1;/PatronesCreacionales/src/builder/MotoBuilder.java;1790860818/1;/PatronesCreacionales/src/builder/CarroBuilder.java;1867071896/1;/PatronesCreacionales/src/builder/Vehiculo.java;3451446613/1;/PatronesCreacionales/src/builder/VehiculoBuilder.java;829523059/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_4vP0MOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_4vQbQOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_4vQbQeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_4vQbQuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_4vQbQ-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_4vQbROUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_4vRCUOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_4vRCUeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_4vRCUuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4vS3gOUTEeu518O4MRMQJA" name="builder">
+      <packagedElement xmi:type="uml:Class" xmi:id="_4vtHMOUTEeu518O4MRMQJA" name="Tienda">
+        <ownedComment xmi:id="_4w-SguUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w7PMOUTEeu518O4MRMQJA" name="construir" specification="_4wyFQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w7PMeUTEeu518O4MRMQJA" name="vehiculoBuilder" type="_4wJMEOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>vehiculoBuilder.construirChasis();&#xD;
+     vehiculoBuilder.construirMotor();&#xD;
+     vehiculoBuilder.construirRuedas();&#xD;
+     vehiculoBuilder.construirPuertas();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4wyFQOUTEeu518O4MRMQJA" name="construir" method="_4w7PMOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4wysUOUTEeu518O4MRMQJA" name="vehiculoBuilder" type="_4wJMEOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4vu8YOUTEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_4w-Sg-UTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w72QOUTEeu518O4MRMQJA" name="main" specification="_4vwKgOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w72QeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4w72QuUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Tienda tienda = new Tienda();&#xD;
+     VehiculoBuilder builder;&#xD;
+     &#xD;
+     builder = new CarroBuilder();&#xD;
+     tienda.construir(builder);&#xD;
+     builder.vehiculo.mostrar();&#xD;
+     &#xD;
+     builder = new MotoBuilder();&#xD;
+     tienda.construir(builder);&#xD;
+     builder.vehiculo.mostrar();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4vwKgOUTEeu518O4MRMQJA" name="main" isStatic="true" method="_4w72QOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4vwKgeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4vwxkOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4vwxkeUTEeu518O4MRMQJA" name="MotoBuilder">
+        <ownedComment xmi:id="_4w-5kOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_4wzTYOUTEeu518O4MRMQJA" general="_4wJMEOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w72Q-UTEeu518O4MRMQJA" name="MotoBuilder" specification="_4vx_sOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w72ROUTEeu518O4MRMQJA" type="_4vwxkeUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>vehiculo = new Vehiculo(&quot;Moto&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w72ReUTEeu518O4MRMQJA" name="construirChasis" specification="_4vymw-UTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Chasis&quot;, &quot;Chasis de la moto&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w72RuUTEeu518O4MRMQJA" name="construirMotor" specification="_4vz04uUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Motor&quot;, &quot;1500 c.c.&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w8dUOUTEeu518O4MRMQJA" name="construirRuedas" specification="_4v1qEeUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Ruedas&quot;, &quot;2 de marca KUMHO&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w8dUeUTEeu518O4MRMQJA" name="construirPuertas" specification="_4v3fQuUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Puertas&quot;, &quot;0 puertas&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4vx_sOUTEeu518O4MRMQJA" name="MotoBuilder" method="_4w72Q-UTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_4vymwOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_4vymweUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_4vymwuUTEeu518O4MRMQJA" type="_4vwxkeUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4vymw-UTEeu518O4MRMQJA" name="construirChasis" method="_4w72ReUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4vz04uUTEeu518O4MRMQJA" name="construirMotor" method="_4w72RuUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4v1qEeUTEeu518O4MRMQJA" name="construirRuedas" method="_4w8dUOUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4v3fQuUTEeu518O4MRMQJA" name="construirPuertas" method="_4w8dUeUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4v57gOUTEeu518O4MRMQJA" name="CarroBuilder">
+        <ownedComment xmi:id="_4w-5keUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_4wzTYeUTEeu518O4MRMQJA" general="_4wJMEOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w8dUuUTEeu518O4MRMQJA" name="CarroBuilder" specification="_4v7wsOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w8dU-UTEeu518O4MRMQJA" type="_4v57gOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>vehiculo = new Vehiculo(&quot;Carro&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w8dVOUTEeu518O4MRMQJA" name="construirChasis" specification="_4v8XwOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Chasis&quot;, &quot;Chasis del Carro&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9EYOUTEeu518O4MRMQJA" name="construirMotor" specification="_4v9l4OUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Motor&quot;, &quot;3400 c.c.&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9EYeUTEeu518O4MRMQJA" name="construirRuedas" specification="_4v-0AeUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Ruedas&quot;, &quot;4 ruedas marca TOYO&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9EYuUTEeu518O4MRMQJA" name="construirPuertas" specification="_4wACIOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>vehiculo.setParte(&quot;Puertas&quot;, &quot;4 puertas con elevavidrios elÃ©ctricos&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4v7wsOUTEeu518O4MRMQJA" name="CarroBuilder" method="_4w8dUuUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_4v7wseUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_4v7wsuUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_4v7ws-UTEeu518O4MRMQJA" type="_4v57gOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4v8XwOUTEeu518O4MRMQJA" name="construirChasis" method="_4w8dVOUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4v9l4OUTEeu518O4MRMQJA" name="construirMotor" method="_4w9EYOUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4v-0AeUTEeu518O4MRMQJA" name="construirRuedas" method="_4w9EYeUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_4wACIOUTEeu518O4MRMQJA" name="construirPuertas" method="_4w9EYuUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4wCeYOUTEeu518O4MRMQJA" name="Vehiculo">
+        <ownedComment xmi:id="_4w-5kuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_4w29wOUTEeu518O4MRMQJA" name="tipoVehiculo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_4w3k0eUTEeu518O4MRMQJA" name="partes" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <qualifier xmi:id="_4w4y8OUTEeu518O4MRMQJA">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </qualifier>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_4w3k0uUTEeu518O4MRMQJA" value="new HashMap&lt;String, String>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9EY-UTEeu518O4MRMQJA" name="Vehiculo" specification="_4wDsgOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w9EZOUTEeu518O4MRMQJA" name="tipoVehiculo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4w9EZeUTEeu518O4MRMQJA" type="_4wCeYOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.tipoVehiculo = tipoVehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9rcOUTEeu518O4MRMQJA" name="getParte" specification="_4wE6oOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w9rceUTEeu518O4MRMQJA" name="clave">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4w9rcuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return partes.get(clave);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9rc-UTEeu518O4MRMQJA" name="setParte" specification="_4wGIwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w9rdOUTEeu518O4MRMQJA" name="clave">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4w9rdeUTEeu518O4MRMQJA" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>partes.put(clave, valor);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w9rduUTEeu518O4MRMQJA" name="mostrar" specification="_4wGv0uUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;\n--------------------&quot;);&#xD;
+     System.out.println(&quot;Tipo de Vehiculo &quot;+tipoVehiculo);&#xD;
+     System.out.println(&quot;Chasis : &quot;+partes.get(&quot;Chasis&quot;));&#xD;
+     System.out.println(&quot;Motor  : &quot;+partes.get(&quot;Motor&quot;));&#xD;
+     System.out.println(&quot;Ruedas : &quot;+partes.get(&quot;Ruedas&quot;));&#xD;
+     System.out.println(&quot;Puertas: &quot;+partes.get(&quot;Puertas&quot;));&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4wDsgOUTEeu518O4MRMQJA" name="Vehiculo" method="_4w9EY-UTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_4wETkeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_4wETkuUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_4wETkOUTEeu518O4MRMQJA" name="tipoVehiculo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4wETk-UTEeu518O4MRMQJA" type="_4wCeYOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4wE6oOUTEeu518O4MRMQJA" name="getParte" method="_4w9rcOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4wE6oeUTEeu518O4MRMQJA" name="clave">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4wFhsOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4wGIwOUTEeu518O4MRMQJA" name="setParte" method="_4w9rc-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4wGv0OUTEeu518O4MRMQJA" name="clave">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_4wGv0eUTEeu518O4MRMQJA" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4wGv0uUTEeu518O4MRMQJA" name="mostrar" method="_4w9rduUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_4wJMEOUTEeu518O4MRMQJA" name="VehiculoBuilder" isAbstract="true">
+        <ownedComment xmi:id="_4w-5k-UTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_4w5aAOUTEeu518O4MRMQJA" name="vehiculo" visibility="protected" type="_4wCeYOUTEeu518O4MRMQJA" association="_4xAHsOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4w-SgOUTEeu518O4MRMQJA" name="getVehiculo" specification="_4wLBQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w-SgeUTEeu518O4MRMQJA" type="_4wCeYOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>return vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_4wLBQOUTEeu518O4MRMQJA" name="getVehiculo" method="_4w-SgOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_4w1voOUTEeu518O4MRMQJA" type="_4wCeYOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_4wLoUOUTEeu518O4MRMQJA" name="construirChasis" isAbstract="true"/>
+        <ownedOperation xmi:id="_4wLoUeUTEeu518O4MRMQJA" name="construirMotor" isAbstract="true"/>
+        <ownedOperation xmi:id="_4wMPYOUTEeu518O4MRMQJA" name="construirRuedas" isAbstract="true"/>
+        <ownedOperation xmi:id="_4wMPYeUTEeu518O4MRMQJA" name="construirPuertas" isAbstract="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4xAHsOUTEeu518O4MRMQJA" name="" memberEnd="_4xAHseUTEeu518O4MRMQJA _4w5aAOUTEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_4xAHseUTEeu518O4MRMQJA" name="" type="_4wJMEOUTEeu518O4MRMQJA" association="_4xAHsOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4vaMQOUTEeu518O4MRMQJA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4vaMQeUTEeu518O4MRMQJA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_4wz6cOUTEeu518O4MRMQJA" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_4w0hgeUTEeu518O4MRMQJA" name="Map"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_4o-0IOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_4o_bMOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_4o_bMeUTEeu518O4MRMQJA" base_Package="_4Iwb8OUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4vzN0OUTEeu518O4MRMQJA" base_Element="_4vymw-UTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4vz04OUTEeu518O4MRMQJA" base_Element="_4vymw-UTEeu518O4MRMQJA">
+    <annotations xmi:id="_4vz04eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v1DAOUTEeu518O4MRMQJA" base_Element="_4vz04uUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v1DAeUTEeu518O4MRMQJA" base_Element="_4vz04uUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v1qEOUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v2RIOUTEeu518O4MRMQJA" base_Element="_4v1qEeUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v3fQOUTEeu518O4MRMQJA" base_Element="_4v1qEeUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v3fQeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v4GUOUTEeu518O4MRMQJA" base_Element="_4v3fQuUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v4tYOUTEeu518O4MRMQJA" base_Element="_4v3fQuUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v4tYeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v8-0OUTEeu518O4MRMQJA" base_Element="_4v8XwOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v8-0eUTEeu518O4MRMQJA" base_Element="_4v8XwOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v8-0uUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v-M8OUTEeu518O4MRMQJA" base_Element="_4v9l4OUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v-M8eUTEeu518O4MRMQJA" base_Element="_4v9l4OUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v-0AOUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4v_bEOUTEeu518O4MRMQJA" base_Element="_4v-0AeUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4v_bEeUTEeu518O4MRMQJA" base_Element="_4v-0AeUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4v_bEuUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4wApMOUTEeu518O4MRMQJA" base_Element="_4wACIOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_4wApMeUTEeu518O4MRMQJA" base_Element="_4wACIOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_4wBQQOUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_4w0hgOUTEeu518O4MRMQJA" base_Element="_4wz6cOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_4w1IkOUTEeu518O4MRMQJA" base_Element="_4w0hgeUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4w3k0OUTEeu518O4MRMQJA" base_Element="_4w29wOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4w4L4OUTEeu518O4MRMQJA" base_Element="_4w3k0eUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4w6BEOUTEeu518O4MRMQJA" base_Element="_4w5aAOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_4xAuwOUTEeu518O4MRMQJA" base_Element="_4xAHsOUTEeu518O4MRMQJA"/>
+</xmi:XMI>

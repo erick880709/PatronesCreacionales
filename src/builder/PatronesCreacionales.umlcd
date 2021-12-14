@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4SrM8OUTEeu518O4MRMQJA">
+  <modelElement href="PatronesCreacionales.uml#_4vS3gOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6WdpoOUTEeu518O4MRMQJA" targetItem="_6WeQsOUTEeu518O4MRMQJA" sourceItem="_6WVGwOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6WwkkOUTEeu518O4MRMQJA" targetItem="_6W0O8OUTEeu518O4MRMQJA" sourceItem="_6WnaoOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6XHw8OUTEeu518O4MRMQJA" targetItem="_6XMpcOUTEeu518O4MRMQJA" sourceItem="_6W9_8OUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6XI_EOUTEeu518O4MRMQJA" sourceAnchor="107.0,0.0" targetAnchor="95.0,130.0" superClass="_6YwvsOUTEeu518O4MRMQJA" subClass="_6XMpcOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4wzTYOUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_6jsNUOUTEeu518O4MRMQJA" sourceY="-13" targetX="221" targetY="26"/>
+    <bendpoints xmi:id="_6jsNUeUTEeu518O4MRMQJA" sourceX="-221" sourceY="-13" targetY="26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6XLbUeUTEeu518O4MRMQJA" targetItem="_6YwvsOUTEeu518O4MRMQJA" sourceItem="_6XLbUOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6XeWQOUTEeu518O4MRMQJA" sourceAnchor="107.0,0.0" targetAnchor="95.0,130.0" superClass="_6YwvsOUTEeu518O4MRMQJA" subClass="_6X07kOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4wzTYeUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_6js0YOUTEeu518O4MRMQJA" sourceY="-26" targetX="-26" targetY="26"/>
+    <bendpoints xmi:id="_6js0YeUTEeu518O4MRMQJA" sourceX="26" sourceY="-26" targetY="26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6XzGYOUTEeu518O4MRMQJA" targetItem="_6X07kOUTEeu518O4MRMQJA" sourceItem="_6XyfUOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6YXHEOUTEeu518O4MRMQJA" targetItem="_6Yb_kOUTEeu518O4MRMQJA" sourceItem="_6YFaQOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6YXuIOUTEeu518O4MRMQJA" sourceAnchor="189.0,65.0" targetAnchor="0.0,78.0" target="_6Yb_kOUTEeu518O4MRMQJA" source="_6YwvsOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4xAHsOUTEeu518O4MRMQJA"/>
+    <stereotypes xmi:id="_6YaKYeUTEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesCreacionales.uml#_4xAuwOUTEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6YZjUOUTEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_6jtbcOUTEeu518O4MRMQJA" position="-43.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_6YZjUeUTEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesCreacionales.uml#_4xAHseUTEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_6js0YuUTEeu518O4MRMQJA" position="5.5,-48.5"/>
+      <visibility xmi:id="_6YaxceUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6YaxcOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6YaKYOUTEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesCreacionales.uml#_4w5aAOUTEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_6jtbceUTEeu518O4MRMQJA" position="-64.5,3.5"/>
+      <visibility xmi:id="_6Yaxc-UTEeu518O4MRMQJA" label="#"/>
+      <cardinality xmi:id="_6YaxcuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6WVGwOUTEeu518O4MRMQJA" sourceConnectionVisual="_6WdpoOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6WeQsOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-SguUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6WnaoOUTEeu518O4MRMQJA" sourceConnectionVisual="_6WwkkOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6W0O8OUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-Sg-UTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6W9_8OUTEeu518O4MRMQJA" sourceConnectionVisual="_6XHw8OUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6XMpcOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-5kOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6XLbUOUTEeu518O4MRMQJA" sourceConnectionVisual="_6XLbUeUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6YwvsOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-5k-UTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6XyfUOUTEeu518O4MRMQJA" sourceConnectionVisual="_6XzGYOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6X07kOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-5keUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6YFaQOUTEeu518O4MRMQJA" sourceConnectionVisual="_6YXHEOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_6Yb_kOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4w-5kuUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6WeQsOUTEeu518O4MRMQJA" comments="_6WVGwOUTEeu518O4MRMQJA" targetConnectionVisual="_6WdpoOUTEeu518O4MRMQJA" name="Tienda">
+    <modelElement href="PatronesCreacionales.uml#_4vtHMOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6WeQseUTEeu518O4MRMQJA" position="10.0,419.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6WeQsuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_6WeQs-UTEeu518O4MRMQJA" name="construir">
+      <modelElement href="PatronesCreacionales.uml#_4wyFQOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6WeQtOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6WeQteUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6WeQtuUTEeu518O4MRMQJA" name="vehiculoBuilder">
+        <modelElement href="PatronesCreacionales.uml#_4wysUOUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6WeQt-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_6WeQuOUTEeu518O4MRMQJA" name="VehiculoBuilder">
+          <modelElement href="PatronesCreacionales.uml#_4wJMEOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6W0O8OUTEeu518O4MRMQJA" comments="_6WnaoOUTEeu518O4MRMQJA" targetConnectionVisual="_6WwkkOUTEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesCreacionales.uml#_4vu8YOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6W0O8eUTEeu518O4MRMQJA" position="11.0,549.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6W0O8uUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_6W0O8-UTEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesCreacionales.uml#_4vwKgOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6W0O9OUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6W0O9eUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6W0O9uUTEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesCreacionales.uml#_4vwKgeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6W0O9-UTEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_6W0O-OUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6XMpcOUTEeu518O4MRMQJA" comments="_6W9_8OUTEeu518O4MRMQJA" targetConnectionVisual="_6XHw8OUTEeu518O4MRMQJA" name="MotoBuilder" generalizations="_6XI_EOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4vwxkeUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6XMpceUTEeu518O4MRMQJA" position="259.0,212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6XMpcuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_6XMpc-UTEeu518O4MRMQJA" name="MotoBuilder">
+      <modelElement href="PatronesCreacionales.uml#_4vx_sOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_6XMpdOUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_6XMpdeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6XMpduUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6XMpd-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_4vymwuUTEeu518O4MRMQJA"/>
+        <type xmi:id="_6XMpeOUTEeu518O4MRMQJA" name="MotoBuilder">
+          <modelElement href="PatronesCreacionales.uml#_4vwxkeUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6XMpeeUTEeu518O4MRMQJA" name="construirChasis">
+      <modelElement href="PatronesCreacionales.uml#_4vymw-UTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6XMpeuUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4vzN0OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6XMpe-UTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4vz04OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6XMpfOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6XMpfeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6XMpfuUTEeu518O4MRMQJA" name="construirMotor">
+      <modelElement href="PatronesCreacionales.uml#_4vz04uUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6XMpf-UTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v1DAOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6XMpgOUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v1DAeUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6XMpgeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6XMpguUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6XMpg-UTEeu518O4MRMQJA" name="construirRuedas">
+      <modelElement href="PatronesCreacionales.uml#_4v1qEeUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6XMphOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v2RIOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6XMpheUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v3fQOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6XMphuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6XMph-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6XMpiOUTEeu518O4MRMQJA" name="construirPuertas">
+      <modelElement href="PatronesCreacionales.uml#_4v3fQuUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6XMpieUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v4GUOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6XMpiuUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v4tYOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6XMpi-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6XMpjOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6X07kOUTEeu518O4MRMQJA" comments="_6XyfUOUTEeu518O4MRMQJA" targetConnectionVisual="_6XzGYOUTEeu518O4MRMQJA" name="CarroBuilder" generalizations="_6XeWQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4v57gOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6X07keUTEeu518O4MRMQJA" position="12.0,225.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6X07kuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_6X07k-UTEeu518O4MRMQJA" name="CarroBuilder">
+      <modelElement href="PatronesCreacionales.uml#_4v7wsOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_6X07lOUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_6X07leUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6X07luUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6X07l-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_4v7ws-UTEeu518O4MRMQJA"/>
+        <type xmi:id="_6X07mOUTEeu518O4MRMQJA" name="CarroBuilder">
+          <modelElement href="PatronesCreacionales.uml#_4v57gOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6X07meUTEeu518O4MRMQJA" name="construirChasis">
+      <modelElement href="PatronesCreacionales.uml#_4v8XwOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6X07muUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v8-0OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6X07m-UTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v8-0eUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6X07nOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6X1ioOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6X1ioeUTEeu518O4MRMQJA" name="construirMotor">
+      <modelElement href="PatronesCreacionales.uml#_4v9l4OUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6X1iouUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v-M8OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6X1io-UTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v-M8eUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6X1ipOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6X1ipeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6X1ipuUTEeu518O4MRMQJA" name="construirRuedas">
+      <modelElement href="PatronesCreacionales.uml#_4v-0AeUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6X1ip-UTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4v_bEOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6X1iqOUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4v_bEeUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6X1iqeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6X1iquUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6X1iq-UTEeu518O4MRMQJA" name="construirPuertas">
+      <modelElement href="PatronesCreacionales.uml#_4wACIOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6X1irOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4wApMOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6X1ireUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesCreacionales.uml#_4wApMeUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6X1iruUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6X1ir-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6Yb_kOUTEeu518O4MRMQJA" comments="_6YFaQOUTEeu518O4MRMQJA" targetConnectionVisual="_6YXHEOUTEeu518O4MRMQJA" name="Vehiculo" associationsIn="_6YXuIOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4wCeYOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6Yb_keUTEeu518O4MRMQJA" position="465.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6Yb_kuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_6Yb_k-UTEeu518O4MRMQJA" name="tipoVehiculo">
+      <modelElement href="PatronesCreacionales.uml#_4w29wOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6Yb_lOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4w3k0OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6Yb_leUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_6Yb_luUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_6Yb_l-UTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6Yb_mOUTEeu518O4MRMQJA" defaultValue="new HashMap&lt;String, String>()" name="partes">
+      <modelElement href="PatronesCreacionales.uml#_4w3k0eUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6Yb_meUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4w4L4OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6Yb_muUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_6Yb_m-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_6Yb_nOUTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6Yb_neUTEeu518O4MRMQJA" name="Vehiculo">
+      <modelElement href="PatronesCreacionales.uml#_4wDsgOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_6Yb_nuUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_6Yb_n-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6Yb_oOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6Yb_oeUTEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_4wETk-UTEeu518O4MRMQJA"/>
+        <type xmi:id="_6Yb_ouUTEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesCreacionales.uml#_4wCeYOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6Yb_o-UTEeu518O4MRMQJA" name="tipoVehiculo">
+        <modelElement href="PatronesCreacionales.uml#_4wETkOUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6Yb_pOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_6Yb_peUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6Yb_puUTEeu518O4MRMQJA" name="getParte">
+      <modelElement href="PatronesCreacionales.uml#_4wE6oOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6Yb_p-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6Yb_qOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6Yb_qeUTEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_4wFhsOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_6Yb_quUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6Yb_q-UTEeu518O4MRMQJA" name="clave">
+        <modelElement href="PatronesCreacionales.uml#_4wE6oeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6Yb_rOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_6Yb_reUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6Yb_ruUTEeu518O4MRMQJA" name="setParte">
+      <modelElement href="PatronesCreacionales.uml#_4wGIwOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6Yb_r-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6Yb_sOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6Yb_seUTEeu518O4MRMQJA" name="clave">
+        <modelElement href="PatronesCreacionales.uml#_4wGv0OUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6Yb_suUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_6Yb_s-UTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6Yb_tOUTEeu518O4MRMQJA" name="valor">
+        <modelElement href="PatronesCreacionales.uml#_4wGv0eUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_6Yb_teUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_6Yb_tuUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6Yb_t-UTEeu518O4MRMQJA" name="mostrar">
+      <modelElement href="PatronesCreacionales.uml#_4wGv0uUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6Yb_uOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6Yb_ueUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6YwvsOUTEeu518O4MRMQJA" comments="_6XLbUOUTEeu518O4MRMQJA" targetConnectionVisual="_6XLbUeUTEeu518O4MRMQJA" name="VehiculoBuilder" abstractClass="true" associationsOut="_6YXuIOUTEeu518O4MRMQJA" subclassedBy="_6XI_EOUTEeu518O4MRMQJA _6XeWQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesCreacionales.uml#_4wJMEOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_6YwvseUTEeu518O4MRMQJA" position="50.0,43.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6YwvsuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_6Ywvs-UTEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesCreacionales.uml#_4w5aAOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_6YwvtOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesCreacionales.uml#_4w6BEOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_6YwvteUTEeu518O4MRMQJA" label="#"/>
+      <cardinality xmi:id="_6YwvtuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_6Ywvt-UTEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesCreacionales.uml#_4wCeYOUTEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6YwvuOUTEeu518O4MRMQJA" name="getVehiculo">
+      <modelElement href="PatronesCreacionales.uml#_4wLBQOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6YwvueUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6YwvuuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6Ywvu-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesCreacionales.uml#_4w1voOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_6YwvvOUTEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesCreacionales.uml#_4wCeYOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6YwvveUTEeu518O4MRMQJA" abstractOperation="true" name="construirChasis">
+      <modelElement href="PatronesCreacionales.uml#_4wLoUOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6YwvvuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6Ywvv-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6YwvwOUTEeu518O4MRMQJA" abstractOperation="true" name="construirMotor">
+      <modelElement href="PatronesCreacionales.uml#_4wLoUeUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6YwvweUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6YwvwuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6Ywvw-UTEeu518O4MRMQJA" abstractOperation="true" name="construirRuedas">
+      <modelElement href="PatronesCreacionales.uml#_4wMPYOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6YwvxOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6YwvxeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_6YwvxuUTEeu518O4MRMQJA" abstractOperation="true" name="construirPuertas">
+      <modelElement href="PatronesCreacionales.uml#_4wMPYeUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_6Ywvx-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_6YwvyOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
